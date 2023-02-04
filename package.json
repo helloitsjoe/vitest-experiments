@@ -1,0 +1,17 @@
+{
+  "name": "lru-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "prettier": "^2.8.3",
+    "vitest": "^0.28.3"
+  }
+}
