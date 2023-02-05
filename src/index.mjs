@@ -4,6 +4,10 @@ export function makeLRUCache(capacity) {
 
   function get(key) {
     const { value } = cache.get(key) || {};
+    if (!value) {
+      return;
+    }
+    cache.set(key, { value, updated: performance.now() });
     return value;
   }
 
